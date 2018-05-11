@@ -1,89 +1,41 @@
-<!doctype html>
-<html lang="de">
+<!DOCTYPE html>
 
 <head>
-  <!-- Required meta tags -->
+	<!-- Meta, title, CSS, favicons, etc. -->
+	<base href="/">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<title>Naturtermine.info</title>
 
-  <title>NaturTermine.info - Termine von Naturschutzverbänden</title>
-  <style media="screen">
-    body,
-    html {
-      height: 100%;
-      padding: 5px;
-    }
+	<!-- Bundled vendor CSS files -->
+	<!-- No vendor.css to be bundled -->
 
-    .flex-grow {
-      flex: 1 0 auto;
-      flex-shrink: 0;
-      min-width: 85%;
-    }
+	<!-- Our compiled and merged Sass files -->
+	<link href="assets/css/app.d2dcf6690bb8691aa229.bundle.css" rel="stylesheet">
 
-    section {
-      display: flex;
-    }
+	<!--
+	Replace "no-js" class with "js" in case JavaScript is available.
+	You can delete this when you feel the need to make use of modernizr.
+	-->
+	<script>(function(h){h.className = h.className.replace('no-js', 'js')})(document.documentElement)</script>
 
-    nav .p-bottom {
-      padding-bottom: .6125rem;
-    }
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory. -->
 
-    nav a {
-      color: #AE8A79;
-    }
-
-    h2 {
-      margin-bottom: 0;
-      color: #AE8A79;
-    }
-
-    header {
-      background-color: white;
-      margin-bottom: 20px;
-    }
-
-    footer {
-      font-size: 0.8em;
-      color: #AE8A79;
-      min-height: 50px;
-    }
-
-    section {
-      border-bottom: 1px #AE8A79 solid;
-      display: block;
-      height: auto;
-    }
-
-    h3 {
-      margin-top: 20px;
-      color: #AE8A79;
-    }
-
-    .text {
-      font-size: 1em;
-      color: #AE8A79;
-    }
-
-    @media(max-width: 480px) {
-      h2 {
-        font-size: 1rem;
-      }
-    }
-  </style>
+	<!-- Place anything custom after this. But put JS to the end of body. -->
 </head>
 
 <body>
-  <div class="container d-flex flex-column h-100">
-    <header class="sticky-top">
+
+	<!-- begin: content container -->
+	<div class="container d-flex flex-column h-100">
+		<header class="sticky-top">
       <nav class="nav justify-content-md-between justify-content-center">
         <a class="navbar-brand" href="#top">
               <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 150 50" enable-background="new 0 0 150 50" xml:space="preserve">
@@ -108,67 +60,87 @@
           </span>
       </nav>
     </header>
-    <div class="h-100 d-flex flex-column flex-grow">
-      <iframe class="d-flex flex-grow" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=2&amp;hl=de&amp;bgcolor=%23FFFFFF&amp;src=iiulbbij174m07oaa4j44l6bhs%40group.calendar.google.com&amp;color=%2375b62d&amp;ctz=Europe%2FBenatur"
-        style="overflow:hidden;height:100%;width:100%;border: 0;" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
-    </div>
-    <section id="info">
-      <h3>Info</h3>
-      <div class="text">
-        <p>Es gibt jeden Tag viele tolle Natur Termine in Deutschland und seinen Nachbarländern, daher wollen wir diese alle in einem Kalendar versammeln.</p>
-        <p>Wir sammeln automatisiert die Termine der großen Naturschutzverbände wie NABU und BUND ein.</p>
-        <p>Du kannst die Termine in deinen Google Kalendar importieren.</p>
-        <p>Vermisst Du Termine? Möchtest Du Termine melden? Oder hast einfach so eine Frage?</p>
-        <p>Schreib uns einfach: <a href="mailto:naturtermine@gmail.com">naturtermine@gmail.com</a></p>
-        <p>:)</p>
-        <p></p>
-      </div>
-    </section>
-    <section id="impressum">
-      <h3>Impressum</h3>
-      <div class="text">
-        <p class="small">
-          Ivo Bathke <br/>
-          Orsbeckstr. 4<br/>
-          50354 Hürth<br/>
-          Telefon: +49 02233 7130751<br/>
-          E-Mail: naturtermine@gmail.com<br/>
-          Umsatzsteuer-Identifikationsnummer nach §27a Umsatzsteuergesetz: DE277426727<br/>
-        </p>
-      </div>
-    </section>
-    <section id="datenschutz">
-      <h3>Datenschutzerklärung</h3>
-      <div class="text">
-        <p>
-          Datenschutz
-        </p>
-        <p class="small">
-          Nachfolgend möchten wir Sie über unsere Datenschutzerklärung informieren. Sie finden hier Informationen über die Erhebung und Verwendung persönlicher Daten bei der Nutzung unserer Webseite. Wir beachten dabei das für Deutschland geltende Datenschutzrecht. Sie können diese Erklärung jederzeit auf unserer Webseite abrufen.
-        </p>
-        <p class="small">
-          Wir weisen ausdrücklich darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen und nicht lückenlos vor dem Zugriff durch Dritte geschützt werden kann.
-        </p>
-        <p class="small">
-          Die Verwendung der Kontaktdaten unseres Impressums zur gewerblichen Werbung ist ausdrücklich nicht erwünscht, es sei denn wir hatten zuvor unsere schriftliche Einwilligung erteilt oder es besteht bereits eine Geschäftsbeziehung. Der Anbieter und alle auf dieser Website genannten Personen widersprechen hiermit jeder kommerziellen Verwendung und Weitergabe ihrer Daten.
-        </p>
-        <p>
-Personenbezogene Daten
-        </p>
-        <p class="small">
-          Sie können unsere Webseite ohne Angabe personenbezogener Daten besuchen. Soweit auf unseren Seiten personenbezogene Daten (wie Name, Anschrift oder E-Mail Adresse) erhoben werden, erfolgt dies, soweit möglich, auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. Sofern zwischen Ihnen und uns ein Vertragsverhältnis begründet, inhaltlich ausgestaltet oder geändert werden soll oder Sie an uns eine Anfrage stellen, erheben und verwenden wir personenbezogene Daten von Ihnen, soweit dies zu diesen Zwecken erforderlich ist (Bestandsdaten). Wir erheben, verarbeiten und nutzen personenbezogene Daten soweit dies erforderlich ist, um Ihnen die Inanspruchnahme des Webangebots zu ermöglichen (Nutzungsdaten). Sämtliche personenbezogenen Daten werden nur solange gespeichert wie dies für den genannten Zweck (Bearbeitung Ihrer Anfrage oder Abwicklung eines Vertrags) erforderlich ist. Hierbei werden steuer- und handelsrechtliche Aufbewahrungsfristen berücksichtigt. Auf Anordnung der zuständigen Stellen dürfen wir im Einzelfall Auskunft über diese Daten (Bestandsdaten) erteilen, soweit dies für Zwecke der Strafverfolgung, zur Gefahrenabwehr, zur Erfüllung der gesetzlichen Aufgaben der Verfassungsschutzbehörden oder des Militärischen Abschirmdienstes oder zur Durchsetzung der Rechte am geistigen Eigentum erforderlich ist.
-        </p>
-        <p>Datenschutzerklärung für Google Calendar von Google Inc.</p>
-        <p class="small">
-          Diese Website verwendet „Google Calendar“- Funktion der Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States („Google“). Durch Google Calendar können Daten über Ihre Nutzung dieser Webseite an Google übertragen, erhoben und von Google genutzt werden. Sie können eine solche Datenübertragung verhindern, wenn Sie in Ihrem Browser „Javascript“ deaktivieren. In dem Falle können aber keine Kalendar angezeigt werden. Durch die Nutzung dieser Webseite und die Nichtdeaktivierung von „Javascript“ erklären Sie Ihr Einverständnis, dass Sie mit der Bearbeitung Ihrer Daten durch Google zum obigen Zwecke einverstanden sind. Weitere Informationen darüber wie „Google Calendar Ihre Daten verwenden sowie die Datenschutzerklärung von Google finden Sie unter: <a href="https://policies.google.com/privacy?hl=de" target="_blank">https://policies.google.com/privacy?hl=de</a>
-        </p>
-      </div>
-    </section>
-    <footer class="d-flex justify-content-between align-items-center">
-      <span>© Ivo Bathke 2018</span>
-      <span>...abschalten rausgehen!</span>
-    </footer>
-  </div>
-</body>
+		<!-- begin: content -->
+		<div id="root"></div>
+		<!-- end: content -->
+		<div>
+			<section id="info">
+			      <h3>Info</h3>
+			      <div class="text">
+			        <p>Es gibt jeden Tag viele tolle Natur Termine in Deutschland und seinen Nachbarländern, daher wollen wir diese alle in einem Kalendar versammeln.</p>
+			        <p>Wir sammeln automatisiert die Termine der großen Naturschutzverbände wie NABU und BUND ein.</p>
+			        <p>Du kannst die Termine in deinen Google Kalendar importieren.</p>
+			        <p>Vermisst Du Termine? Möchtest Du Termine melden? Oder hast einfach so eine Frage?</p>
+			        <p>Schreib uns einfach: <a href="mailto:naturtermine@gmail.com">naturtermine@gmail.com</a></p>
+			        <p>:)</p>
+			        <p></p>
+			      </div>
+			    </section>
+			    <section id="impressum">
+			      <h3>Impressum</h3>
+			      <div class="text">
+			        <p class="small">
+			          Ivo Bathke <br/>
+			          Orsbeckstr. 4<br/>
+			          50354 Hürth<br/>
+			          Telefon: +49 02233 7130751<br/>
+			          E-Mail: naturtermine@gmail.com<br/>
+			          Umsatzsteuer-Identifikationsnummer nach §27a Umsatzsteuergesetz: DE277426727<br/>
+			        </p>
+			      </div>
+			    </section>
+			    <section id="datenschutz">
+			      <h3>Datenschutzerklärung</h3>
+			      <div class="text">
+			        <p>
+			          Datenschutz
+			        </p>
+			        <p class="small">
+			          Nachfolgend möchten wir Sie über unsere Datenschutzerklärung informieren. Sie finden hier Informationen über die Erhebung und Verwendung persönlicher Daten bei der Nutzung unserer Webseite. Wir beachten dabei das für Deutschland geltende Datenschutzrecht. Sie können diese Erklärung jederzeit auf unserer Webseite abrufen.
+			        </p>
+			        <p class="small">
+			          Wir weisen ausdrücklich darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen und nicht lückenlos vor dem Zugriff durch Dritte geschützt werden kann.
+			        </p>
+			        <p class="small">
+			          Die Verwendung der Kontaktdaten unseres Impressums zur gewerblichen Werbung ist ausdrücklich nicht erwünscht, es sei denn wir hatten zuvor unsere schriftliche Einwilligung erteilt oder es besteht bereits eine Geschäftsbeziehung. Der Anbieter und alle auf dieser Website genannten Personen widersprechen hiermit jeder kommerziellen Verwendung und Weitergabe ihrer Daten.
+			        </p>
+			        <p>
+			Personenbezogene Daten
+			        </p>
+			        <p class="small">
+			          Sie können unsere Webseite ohne Angabe personenbezogener Daten besuchen. Soweit auf unseren Seiten personenbezogene Daten (wie Name, Anschrift oder E-Mail Adresse) erhoben werden, erfolgt dies, soweit möglich, auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. Sofern zwischen Ihnen und uns ein Vertragsverhältnis begründet, inhaltlich ausgestaltet oder geändert werden soll oder Sie an uns eine Anfrage stellen, erheben und verwenden wir personenbezogene Daten von Ihnen, soweit dies zu diesen Zwecken erforderlich ist (Bestandsdaten). Wir erheben, verarbeiten und nutzen personenbezogene Daten soweit dies erforderlich ist, um Ihnen die Inanspruchnahme des Webangebots zu ermöglichen (Nutzungsdaten). Sämtliche personenbezogenen Daten werden nur solange gespeichert wie dies für den genannten Zweck (Bearbeitung Ihrer Anfrage oder Abwicklung eines Vertrags) erforderlich ist. Hierbei werden steuer- und handelsrechtliche Aufbewahrungsfristen berücksichtigt. Auf Anordnung der zuständigen Stellen dürfen wir im Einzelfall Auskunft über diese Daten (Bestandsdaten) erteilen, soweit dies für Zwecke der Strafverfolgung, zur Gefahrenabwehr, zur Erfüllung der gesetzlichen Aufgaben der Verfassungsschutzbehörden oder des Militärischen Abschirmdienstes oder zur Durchsetzung der Rechte am geistigen Eigentum erforderlich ist.
+			        </p>
+			        <p>Datenschutzerklärung für Google Calendar von Google Inc.</p>
+			        <p class="small">
+			          Diese Website verwendet „Google Calendar“- Funktion der Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States („Google“). Durch Google Calendar können Daten über Ihre Nutzung dieser Webseite an Google übertragen, erhoben und von Google genutzt werden. Sie können eine solche Datenübertragung verhindern, wenn Sie in Ihrem Browser „Javascript“ deaktivieren. In dem Falle können aber keine Kalendar angezeigt werden. Durch die Nutzung dieser Webseite und die Nichtdeaktivierung von „Javascript“ erklären Sie Ihr Einverständnis, dass Sie mit der Bearbeitung Ihrer Daten durch Google zum obigen Zwecke einverstanden sind. Weitere Informationen darüber wie „Google Calendar Ihre Daten verwenden sowie die Datenschutzerklärung von Google finden Sie unter: <a href="https://policies.google.com/privacy?hl=de" target="_blank">https://policies.google.com/privacy?hl=de</a>
+			        </p>
+			      </div>
+			    </section>
+			    <footer class="d-flex justify-content-between align-items-center">
+			      <span>© Ivo Bathke 2018</span>
+			      <span>...abschalten rausgehen!</span>
+			    </footer>
+		</div>
+	</div>
+	<!-- end: content container -->
 
+<!--
+JavaScript
+=======================================================
+Placed at the end of the document. Performance reasons.
+Non minified/merged versions for debugging purposes are
+replaced in the production ready build.
+-->
+
+	<!-- webpack runtime JS -->
+	<script src="app/runtime.9f20dc00f4e5846ac76e.bundle.js"></script>
+
+	<!-- Vendor JS -->
+	<script src="app/vendor.c1a30f1379c5376f3008.bundle.js"></script>
+
+	<!-- Own JS -->
+	<script src="app/app.d2dcf6690bb8691aa229.bundle.js"></script>
+
+<!-- External scripts (eg. analytics) should be placed here -->
+</body>
 </html>
